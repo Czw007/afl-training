@@ -48,6 +48,7 @@ Build our quickstart program using the instrumented compiler:
 
     $ cd quickstart
     $ CC=afl-clang-fast AFL_HARDEN=1 make
+note：在我实际运行过程，第二条命令应该改成 $CC=afl-cc AFL_HARDEN=1 make
 
 Test it:
 
